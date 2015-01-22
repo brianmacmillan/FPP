@@ -1,0 +1,868 @@
+[
+    {
+        "id": "001U0000016mhE0IAI",
+        "name": "flare.Arnold Hiatt.Main",
+        "size": 1,
+        "imports": [
+            "flare.Campaign Finance Reform.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDgIAI",
+        "name": "flare.Arthur Blank.Main",
+        "size": 2,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Youth development.Main",
+            "flare.Theater.Main",
+            "flare.Environment.Main",
+            "flare.Performing Arts.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDUIAY",
+        "name": "flare.Bill and Karen Ackman.Main",
+        "size": 5,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Health.Main",
+            "flare.Arts.Main",
+            "flare.Community\/Economic Development.Main",
+            "flare.Human Services.Main",
+            "flare.Jewish Causes.Main",
+            "flare.Social Entrepreneurship.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDuIAI",
+        "name": "flare.Bill and Melinda Gates.Main",
+        "size": 6,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Community\/Economic Development.Main",
+            "flare.Human Services.Main",
+            "flare.Higher Education.Main",
+            "flare.Public Health.Main",
+            "flare.Libraries\/library science.Main",
+            "flare.Economic development.Main",
+            "flare.Health Care.Main",
+            "flare.International Economic Development.Main",
+            "flare.AIDS.Main",
+            "flare.Global Initiatives.Main",
+            "flare.Parasitic Diseases Research.Main",
+            "flare.Nutrition.Main",
+            "flare.Agriculture\/Food.Main",
+            "flare.Immunology.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEQIAY",
+        "name": "flare.Bob Perry.Main",
+        "size": 7,
+        "imports": [
+            "flare.Veterans Issues.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEoIAI",
+        "name": "flare.Casey Wasserman.Main",
+        "size": 8,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Health.Main",
+            "flare.Arts and Culture.Main",
+            "flare.Global Initiatives.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhELIAY",
+        "name": "flare.Charles and Nancy Munger.Main",
+        "size": 9,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Higher Education.Main",
+            "flare.Law school\/education.Main",
+            "flare.Libraries\/library science.Main",
+            "flare.Museums.Main",
+            "flare.YM\/YWCAs.Main",
+            "flare.Hospitals.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhE2IAI",
+        "name": "flare.Chris Hughes.Main",
+        "size": 10,
+        "imports": [
+            "flare.Marriage Equality.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEBIAY",
+        "name": "flare.David Koch.Main",
+        "size": 13,
+        "imports": [
+            "flare.Arts.Main",
+            "flare.Science.Main",
+            "flare.Higher Education.Main",
+            "flare.Hospitals.Main",
+            "flare.Prostate Cancer Research.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDkIAI",
+        "name": "flare.Eli and Edythe Broad.Main",
+        "size": 17,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Arts.Main",
+            "flare.Science.Main",
+            "flare.Civic (Museums\/Opera\/ Symphony\/Arch).Main"
+        ]
+    },
+    {
+        "id": "001U000000zDrznIAC",
+        "name": "flare.Fred Eychaner.Main",
+        "size": 20,
+        "imports": [
+            "flare.Arts Education.Main",
+            "flare.Family Services.Main",
+            "flare.Domestic Violence.Main",
+            "flare.Historical preservation\/societies.Main",
+            "flare.Visual arts.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEfIAI",
+        "name": "flare.George and Jonathan Soros.Main",
+        "size": 22,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Arts.Main",
+            "flare.Public Health.Main",
+            "flare.Civil\/human rights.Main",
+            "flare.Crime\/Law Entorcement.Main",
+            "flare.International Economic Development.Main",
+            "flare.International human rights.Main",
+            "flare.Law\/international law.Main",
+            "flare.Media\/communications.Main",
+            "flare.Palliative care.Main",
+            "flare.Reproductive health.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhE8IAI",
+        "name": "flare.George Kaiser.Main",
+        "size": 23,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Female Incarceration.Main",
+            "flare.Civic Enhancement.Main",
+            "flare.Tulsa.Main",
+            "flare.Community Health.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEGIAY",
+        "name": "flare.George Lucas.Main",
+        "size": 24,
+        "imports": [
+            "flare.Education.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEKIAY",
+        "name": "flare.Gordon and Betty Moore.Main",
+        "size": 25,
+        "imports": [
+            "flare.Science.Main",
+            "flare.Environment.Main",
+            "flare.Patient Care Programs.Main",
+            "flare.San Francisco Bay Area.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEZIAY",
+        "name": "flare.Howard Schultz.Main",
+        "size": 27,
+        "imports": [
+            "flare.Jobs.Main",
+            "flare.Veterans.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhE3IAI",
+        "name": "flare.Hunt Family.Main",
+        "size": 28,
+        "imports": [
+            "flare.Health Care.Main",
+            "flare.Access to Education.Main",
+            "flare.Proliferation of the Arts.Main",
+            "flare.Preservation of Local Heritage.Main",
+            "flare.improvements in Quality of Life.Main",
+            "flare.Regional Economic Development.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDdIAI",
+        "name": "flare.Jeffrey Bezos.Main",
+        "size": 32,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Children\/youth services.Main",
+            "flare.Higher Education.Main",
+            "flare.International exchange.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEeIAI",
+        "name": "flare.Jeffrey Skoll.Main",
+        "size": 33,
+        "imports": [
+            "flare.Social Entrepreneurship.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEPIAY",
+        "name": "flare.Jerry Perenchio.Main",
+        "size": 34,
+        "imports": [
+            "flare.Education.Main"
+        ]
+    },
+    {
+        "id": "001U000000zqdaCIAQ",
+        "name": "flare.John and Laura Arnold.Main",
+        "size": 37,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Criminal Justice.Main",
+            "flare.Public Accountability.Main",
+            "flare.Research Integrity.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDmIAI",
+        "name": "flare.John Burbank.Main",
+        "size": 38,
+        "imports": [
+            "flare.Fiscal.Main"
+        ]
+    },
+    {
+        "id": "001U000000zDroZIAS",
+        "name": "flare.John Stryker.Main",
+        "size": 39,
+        "imports": [
+            "flare.Gay Rights.Main",
+            "flare.Protection for apes.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhE4IAI",
+        "name": "flare.Jon Huntsman Sr. and Jon Huntsman Jr..Main",
+        "size": 40,
+        "imports": [
+            "flare.Community\/Economic Development.Main",
+            "flare.Higher Education.Main",
+            "flare.Business School\/Education.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEhIAI",
+        "name": "flare.Jon Stryker.Main",
+        "size": 41,
+        "imports": [
+            "flare.Gay Rights.Main",
+            "flare.Protection for apes.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEVIAY",
+        "name": "flare.Julian Robertson Jr..Main",
+        "size": 43,
+        "imports": [
+            "flare.Medical research.Main",
+            "flare.Environment.Main",
+            "flare.Public School Reform.Main",
+            "flare.Religion and Spirituality.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDrIAI",
+        "name": "flare.Larry Ellison.Main",
+        "size": 45,
+        "imports": [
+            "flare.Science.Main",
+            "flare.Biology\/Life Sciences.Main",
+            "flare.Biomedicine.Main",
+            "flare.Geronotology.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhECIAY",
+        "name": "flare.Leonard Lauder.Main",
+        "size": 52,
+        "imports": [
+            "flare.Human Services.Main",
+            "flare.Jewish Causes.Main",
+            "flare.Higher Education.Main",
+            "flare.Environment.Main",
+            "flare.Arts Education.Main",
+            "flare.Performing Arts.Main",
+            "flare.Museums.Main",
+            "flare.Health Care.Main",
+            "flare.Breast Cancer Research.Main",
+            "flare.Community Foundations.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDaIAI",
+        "name": "flare.Louis Bacon.Main",
+        "size": 53,
+        "imports": [
+            "flare.Environment (North Carolina, Bahamas).Main",
+            "flare.Environment.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDpIAI",
+        "name": "flare.Michael and Susan Dell.Main",
+        "size": 56,
+        "imports": [
+            "flare.Childhood Health.Main",
+            "flare.Social Performance Indicators.Main",
+            "flare.Urban Education.Main",
+            "flare.Crime\/Violence Prevention.Main"
+        ]
+    },
+    {
+        "id": "001U000000zDrwAIAS",
+        "name": "flare.Michael Bloomberg.Main",
+        "size": 57,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Arts.Main",
+            "flare.Environment.Main",
+            "flare.Founders Projects.Main",
+            "flare.Government Innovation.Main",
+            "flare.Public Health.Main",
+            "flare.Gun Control.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDWIAY",
+        "name": "flare.Paul Allen.Main",
+        "size": 60,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Arts.Main",
+            "flare.Human Services.Main",
+            "flare.Libraries.Main",
+            "flare.Science.Main",
+            "flare.Youth.Main",
+            "flare.Performing Arts.Main",
+            "flare.Museums.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEdIAI",
+        "name": "flare.Paul Singer.Main",
+        "size": 61,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Jewish Causes.Main",
+            "flare.Health Care.Main",
+            "flare.Hunger.Main",
+            "flare.LGBT Issues.Main",
+            "flare.Military causes.Main",
+            "flare.Cancer.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhElIAI",
+        "name": "flare.Paul Tudor Jones.Main",
+        "size": 62,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Family Services.Main",
+            "flare.AIDS.Main",
+            "flare.Housing\/Shelter.Main",
+            "flare.Youth Services.Main",
+            "flare.Employment Services.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhESIAY",
+        "name": "flare.Peter G. Peterson.Main",
+        "size": 63,
+        "imports": [
+            "flare.Spending.Main",
+            "flare.Taxes.Main",
+            "flare.Health Care.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEEIAY",
+        "name": "flare.Peter Lewis.Main",
+        "size": 64,
+        "imports": [
+            "flare.Drug Law Reform.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEiIAI",
+        "name": "flare.Peter Thiel.Main",
+        "size": 65,
+        "imports": [
+            "flare.Political Personal and Economic Freedoms.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhENIAY",
+        "name": "flare.Pierre and Pamela Omidyar.Main",
+        "size": 66,
+        "imports": [
+            "flare.Community Development.Main",
+            "flare.Computer Science.Main",
+            "flare.Economic development.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEXIAY",
+        "name": "flare.Rockefeller Family.Main",
+        "size": 71,
+        "imports": [
+            "flare.Health.Main",
+            "flare.Environment.Main",
+            "flare.Economic development.Main",
+            "flare.Urbanization.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEOIAY",
+        "name": "flare.Sean Parker.Main",
+        "size": 73,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Cancer Research.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEAIAY",
+        "name": "flare.Seth and Beth Klarman.Main",
+        "size": 74,
+        "imports": [
+            "flare.Jewish Causes.Main",
+            "flare.Medical research.Main",
+            "flare.Scientific Research.Main",
+            "flare.Access to Music.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDVIAY",
+        "name": "flare.Sheldon and Dr. Miriam Adelson.Main",
+        "size": 76,
+        "imports": [
+            "flare.Human Services.Main",
+            "flare.Jewish Causes.Main",
+            "flare.Medical research.Main",
+            "flare.Substance abuse and treatment.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDeIAI",
+        "name": "flare.Stephen Bing.Main",
+        "size": 78,
+        "imports": [
+            "flare.Environment.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDoIAI",
+        "name": "flare.Steve Cohen.Main",
+        "size": 80,
+        "imports": [
+            "flare.Education.Main",
+            "flare.Arts.Main",
+            "flare.Childhood Health.Main",
+            "flare.Veterans.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEmIAI",
+        "name": "flare.Ted Turner.Main",
+        "size": 81,
+        "imports": [
+            "flare.Environment.Main"
+        ]
+    },
+    {
+        "id": "001U000000zDrvRIAS",
+        "name": "flare.Thomas Steyer.Main",
+        "size": 82,
+        "imports": [
+            "flare.Energy and Climate.Main",
+            "flare.Children and Families.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDwIAI",
+        "name": "flare.Tim Gill.Main",
+        "size": 84,
+        "imports": [
+            "flare.Marriage Equality.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEjIAI",
+        "name": "flare.Tisch Family.Main",
+        "size": 85,
+        "imports": [
+            "flare.Jewish Causes.Main",
+            "flare.LGBT Issues.Main",
+            "flare.AIDS.Main",
+            "flare.New York City Issues.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhE1IAI",
+        "name": "flare.William B. Hilton.Main",
+        "size": 90,
+        "imports": [
+            "flare.Substance abuse and treatment.Main",
+            "flare.AIDS.Main",
+            "flare.Housing\/Shelter.Main",
+            "flare.Water.Main",
+            "flare.Safety\/Disasters.Main",
+            "flare.Blindness.Main",
+            "flare.Multiple Sclerosis.Main"
+        ]
+    },
+    {
+        "id": "Arts",
+        "name": "flare.Arts.Main",
+        "size": 17,
+        "imports": [
+            "flare.Arthur Blank.Main",
+            "flare.Arthur Blank.Main",
+            "flare.Bill and Karen Ackman.Main",
+            "flare.Casey Wasserman.Main",
+            "flare.David Koch.Main",
+            "flare.Eli and Edythe Broad.Main",
+            "flare.Fred Eychaner.Main",
+            "flare.Fred Eychaner.Main",
+            "flare.George and Jonathan Soros.Main",
+            "flare.Hunt Family.Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Michael Bloomberg.Main",
+            "flare.Paul Allen.Main",
+            "flare.Paul Allen.Main",
+            "flare.Seth and Beth Klarman.Main",
+            "flare.Steve Cohen.Main"
+        ]
+    },
+    {
+        "id": "Crime",
+        "name": "flare.Crime.Main",
+        "size": 5,
+        "imports": [
+            "flare.George and Jonathan Soros.Main",
+            "flare.George Kaiser.Main",
+            "flare.John and Laura Arnold.Main",
+            "flare.Michael and Susan Dell.Main",
+            "flare.Peter Lewis.Main"
+        ]
+    },
+    {
+        "id": "Education",
+        "name": "flare.Education.Main",
+        "size": 15,
+        "imports": [
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Charles and Nancy Munger.Main",
+            "flare.Charles and Nancy Munger.Main",
+            "flare.David Koch.Main",
+            "flare.Fred Eychaner.Main",
+            "flare.George and Jonathan Soros.Main",
+            "flare.Hunt Family.Main",
+            "flare.Jeffrey Bezos.Main",
+            "flare.John and Laura Arnold.Main",
+            "flare.Jon Huntsman Sr. and Jon Huntsman Jr..Main",
+            "flare.Jon Huntsman Sr. and Jon Huntsman Jr..Main",
+            "flare.Julian Robertson Jr..Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Michael and Susan Dell.Main"
+        ]
+    },
+    {
+        "id": "Environment",
+        "name": "flare.Environment.Main",
+        "size": 16,
+        "imports": [
+            "flare.Arthur Blank.Main",
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Gordon and Betty Moore.Main",
+            "flare.John Stryker.Main",
+            "flare.Jon Stryker.Main",
+            "flare.Julian Robertson Jr..Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Louis Bacon.Main",
+            "flare.Louis Bacon.Main",
+            "flare.Michael Bloomberg.Main",
+            "flare.Rockefeller Family.Main",
+            "flare.Stephen Bing.Main",
+            "flare.Ted Turner.Main",
+            "flare.Thomas Steyer.Main",
+            "flare.William B. Hilton.Main",
+            "flare.William B. Hilton.Main"
+        ]
+    },
+    {
+        "id": "Fiscal",
+        "name": "flare.Fiscal.Main",
+        "size": 3,
+        "imports": [
+            "flare.John Burbank.Main",
+            "flare.Peter G. Peterson.Main",
+            "flare.Peter G. Peterson.Main"
+        ]
+    },
+    {
+        "id": "Government",
+        "name": "flare.Government.Main",
+        "size": 2,
+        "imports": [
+            "flare.John and Laura Arnold.Main",
+            "flare.Michael Bloomberg.Main"
+        ]
+    },
+    {
+        "id": "Gun Control",
+        "name": "flare.Gun Control.Main",
+        "size": 1,
+        "imports": [
+            "flare.Michael Bloomberg.Main"
+        ]
+    },
+    {
+        "id": "Health",
+        "name": "flare.Health.Main",
+        "size": 39,
+        "imports": [
+            "flare.Bill and Karen Ackman.Main",
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Casey Wasserman.Main",
+            "flare.Charles and Nancy Munger.Main",
+            "flare.David Koch.Main",
+            "flare.David Koch.Main",
+            "flare.George and Jonathan Soros.Main",
+            "flare.George and Jonathan Soros.Main",
+            "flare.George and Jonathan Soros.Main",
+            "flare.George Kaiser.Main",
+            "flare.Gordon and Betty Moore.Main",
+            "flare.Hunt Family.Main",
+            "flare.Julian Robertson Jr..Main",
+            "flare.Larry Ellison.Main",
+            "flare.Larry Ellison.Main",
+            "flare.Larry Ellison.Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Michael and Susan Dell.Main",
+            "flare.Michael Bloomberg.Main",
+            "flare.Paul Singer.Main",
+            "flare.Paul Singer.Main",
+            "flare.Paul Tudor Jones.Main",
+            "flare.Peter G. Peterson.Main",
+            "flare.Rockefeller Family.Main",
+            "flare.Sean Parker.Main",
+            "flare.Seth and Beth Klarman.Main",
+            "flare.Sheldon and Dr. Miriam Adelson.Main",
+            "flare.Sheldon and Dr. Miriam Adelson.Main",
+            "flare.Steve Cohen.Main",
+            "flare.Tisch Family.Main",
+            "flare.William B. Hilton.Main",
+            "flare.William B. Hilton.Main",
+            "flare.William B. Hilton.Main"
+        ]
+    },
+    {
+        "id": "International",
+        "name": "flare.International.Main",
+        "size": 7,
+        "imports": [
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Casey Wasserman.Main",
+            "flare.George and Jonathan Soros.Main",
+            "flare.George and Jonathan Soros.Main",
+            "flare.George and Jonathan Soros.Main",
+            "flare.Jeffrey Bezos.Main"
+        ]
+    },
+    {
+        "id": "Jewish",
+        "name": "flare.Jewish.Main",
+        "size": 8,
+        "imports": [
+            "flare.Bill and Karen Ackman.Main",
+            "flare.Fred Eychaner.Main",
+            "flare.Hunt Family.Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Paul Singer.Main",
+            "flare.Seth and Beth Klarman.Main",
+            "flare.Sheldon and Dr. Miriam Adelson.Main",
+            "flare.Tisch Family.Main"
+        ]
+    },
+    {
+        "id": "Jobs",
+        "name": "flare.Jobs.Main",
+        "size": 2,
+        "imports": [
+            "flare.Howard Schultz.Main",
+            "flare.Paul Tudor Jones.Main"
+        ]
+    },
+    {
+        "id": "Libraries",
+        "name": "flare.Libraries.Main",
+        "size": 3,
+        "imports": [
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Charles and Nancy Munger.Main",
+            "flare.Paul Allen.Main"
+        ]
+    },
+    {
+        "id": "Marriage Equality",
+        "name": "flare.Marriage Equality.Main",
+        "size": 10,
+        "imports": [
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Chris Hughes.Main",
+            "flare.John Stryker.Main",
+            "flare.Jon Stryker.Main",
+            "flare.Paul Singer.Main",
+            "flare.Paul Tudor Jones.Main",
+            "flare.Tim Gill.Main",
+            "flare.Tisch Family.Main",
+            "flare.Tisch Family.Main",
+            "flare.William B. Hilton.Main"
+        ]
+    },
+    {
+        "id": "Military",
+        "name": "flare.Military.Main",
+        "size": 4,
+        "imports": [
+            "flare.Bob Perry.Main",
+            "flare.Howard Schultz.Main",
+            "flare.Paul Singer.Main",
+            "flare.Steve Cohen.Main"
+        ]
+    },
+    {
+        "id": "Museum",
+        "name": "flare.Museum.Main",
+        "size": 6,
+        "imports": [
+            "flare.Charles and Nancy Munger.Main",
+            "flare.Eli and Edythe Broad.Main",
+            "flare.Fred Eychaner.Main",
+            "flare.Hunt Family.Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Paul Allen.Main"
+        ]
+    },
+    {
+        "id": "Religion",
+        "name": "flare.Religion.Main",
+        "size": 1,
+        "imports": [
+            "flare.Julian Robertson Jr..Main"
+        ]
+    },
+    {
+        "id": "Social",
+        "name": "flare.Social.Main",
+        "size": 33,
+        "imports": [
+            "flare.Arthur Blank.Main",
+            "flare.Bill and Karen Ackman.Main",
+            "flare.Bill and Karen Ackman.Main",
+            "flare.Bill and Karen Ackman.Main",
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Charles and Nancy Munger.Main",
+            "flare.Eli and Edythe Broad.Main",
+            "flare.Fred Eychaner.Main",
+            "flare.Fred Eychaner.Main",
+            "flare.George and Jonathan Soros.Main",
+            "flare.George and Jonathan Soros.Main",
+            "flare.George Kaiser.Main",
+            "flare.George Kaiser.Main",
+            "flare.Hunt Family.Main",
+            "flare.Jeffrey Bezos.Main",
+            "flare.Jeffrey Skoll.Main",
+            "flare.Jon Huntsman Sr. and Jon Huntsman Jr..Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Leonard Lauder.Main",
+            "flare.Michael and Susan Dell.Main",
+            "flare.Michael and Susan Dell.Main",
+            "flare.Paul Allen.Main",
+            "flare.Paul Allen.Main",
+            "flare.Paul Singer.Main",
+            "flare.Paul Tudor Jones.Main",
+            "flare.Paul Tudor Jones.Main",
+            "flare.Paul Tudor Jones.Main",
+            "flare.Pierre and Pamela Omidyar.Main",
+            "flare.Sheldon and Dr. Miriam Adelson.Main",
+            "flare.Thomas Steyer.Main",
+            "flare.William B. Hilton.Main",
+            "flare.William B. Hilton.Main"
+        ]
+    },
+    {
+        "id": "Science",
+        "name": "flare.Science.Main",
+        "size": 9,
+        "imports": [
+            "flare.Bill and Melinda Gates.Main",
+            "flare.Charles and Nancy Munger.Main",
+            "flare.David Koch.Main",
+            "flare.Eli and Edythe Broad.Main",
+            "flare.Gordon and Betty Moore.Main",
+            "flare.Larry Ellison.Main",
+            "flare.Larry Ellison.Main",
+            "flare.Paul Allen.Main",
+            "flare.Pierre and Pamela Omidyar.Main"
+        ]
+    },
+    {
+        "id": "Urban",
+        "name": "flare.Urban.Main",
+        "size": 5,
+        "imports": [
+            "flare.George Kaiser.Main",
+            "flare.Gordon and Betty Moore.Main",
+            "flare.Michael and Susan Dell.Main",
+            "flare.Rockefeller Family.Main",
+            "flare.Tisch Family.Main"
+        ]
+    },
+    {
+        "id": "Women",
+        "name": "flare.Women.Main",
+        "size": 1,
+        "imports": [
+            "flare.Michael Bloomberg.Main"
+        ]
+    }
+]

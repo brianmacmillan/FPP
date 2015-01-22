@@ -1,0 +1,156 @@
+body{width:98%;}
+nav{z-index: 9999;}
+.client-summary .about{border:1px solid transparent !important;}
+.client-summary .headshot{text-align:center;margin-top:10px;}
+.client-summary .overview{text-align:left;margin:auto;width:250px;}
+.client-summary{display:none;}
+.client-summary.active{display:block;}
+.container.about p{margin:auto;text-align:left;width:700px;font-size: 12pt;padding-bottom: 20px;}
+.container.aboutp::first-line{text-indent: 10px !important;}
+.container.about  p.first-paragraph:first-letter{font-weight: bold;font-size: 16pt;}
+.client-summary .about.description { }
+.client-summary .about,.client-summary .summary {
+  padding: 10px 10px;
+  }
+g.group text{font-size: 10.5pt !important;}
+/* .input{
+  width: 20px; 
+    height: 20px; 
+    padding-top: 10px;
+ }*/
+/* .choose_text{
+  font-size: 14px;
+  color: black;
+  vertical-align:top;
+ }*/
+/* .clear_right{
+  clear:right;
+ }*/
+/*.triptime{
+  margin-top: -8px;
+
+}*/
+.border{height: 2px;}
+
+.subtitle{
+ font-size: 16px;
+ font-style:italic;
+ margin-top: 4px;
+}
+
+  h1 {
+      color:black;
+      text-align: center;
+      font-size: 45px;
+      font-family: Arial;
+      border: 0px;
+      }
+  h2 {
+      font-size: 30px;
+      border: 0px;
+      color: rgba(173, 204, 253, 0.96);
+
+      }
+
+.logo{
+	float: left;
+	display: inline;
+	font-size: 31px;
+	margin-left: 20px;
+	font-family: cursive;
+	font-weight: bold;
+	color: rgba(173, 204, 253, 0.96);
+}
+.copyright{
+  font-size: 10px;
+  color:white;
+}
+div.center{margin:auto;text-align: center;}
+
+#chord-legend-container{width:100%;margin-top:20px;border:10px;border-radius:10px;}
+#chord-legend-container span {padding-right:20px;}
+
+#landscape-header{margin-top:60px;}
+/* chord all */
+    #chord-container{overflow:hidden;}
+    #chord{width:75%;border:1px solid white;display:inline-block;float:right;overflow:visible;}
+    #chord-details{width:25%;border:1px solid black;display:inline-block;height:798px;overflow:auto;}
+    #chord-svg{overflow:visible;}
+    #tooltip {
+        color: white;
+        opacity: .9;
+        background: #333;
+        padding: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 10;
+        visibility: hidden;
+        white-space: nowrap;
+        pointer-events: none;
+    }
+    #circle{overflow:visible !important;border:1px solid lightgrey !important;}
+    #circle circle {
+      fill: none;
+      pointer-events: all;
+    }
+    path.group {
+      fill-opacity: .8;
+    }
+    path.chord {
+      fill-opacity: .8;
+      stroke: #000;
+      stroke-width: .25px;
+    }
+    #circle:hover path.fade {
+      display: none;
+    }
+    g text:hover{font-size:16pt !important;font-weight:bold;cursor:pointer;}
+/* end of chord all */
+
+/* marriage equality map stuff */
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+.feature {
+  fill: #ccc;
+  cursor: pointer;
+}
+
+.feature.active {
+  fill: darkgrey;
+}
+
+g path.feature:hover{fill:darkgrey;}
+.mesh {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.left{float:left;}
+
+.title{font:15pt bold sans-serif;font-weight:bold;}
+
+#marriage-equality-container{display:inline-block; width:100%;border:1px solid white;}
+#marriage-equality{margin:auto;width:1120px;border:1px solid grey;border-radius:10px;}
+#slider-and-details{
+  vertical-align: top;
+  border:1px solid white;
+  display:inline-block;
+  width:300px;
+  height:500px;
+}
+  #slider-year{width:235px;float:right;border:1px solid white;text-align:center;margin-right:10px;}
+  #slider-description{width:235px;float:right;border:1px solid white;text-align:center;margin-right:10px;height:450px;text-align:left;font-style:italic;overflow:auto;}
+    #slider-description p{margin-top:0px;}
+  #slider-container{border:1px solid white;text-align:center;width:40px;text-align:center;}
+#slider-vertical{border:1px solid brown;margin-left:5px;display:inline-block;margin-top:40px;height:410px;}
+#add-year{display:none;height:30px;border:1px solid blue;width:70px;font:sans-serif;font-weight:bold;padding:10px;border-radius:6px;}
+#add-year:hover{cursor:pointer;text-align:center;}
+
+#map-container{display:inline-block;border:1px solid white;}

@@ -1,0 +1,45 @@
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+.feature {
+  fill: #ccc;
+  cursor: pointer;
+}
+
+.feature.active {
+  fill: darkgrey;
+}
+
+g path.feature:hover{fill:darkgrey;}
+.mesh {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.left{display:inline-block;float:left;}
+
+.title{font:15pt bold sans-serif;font-weight:bold;}
+
+#marriage-equality-container{display:inline-block; width:100%;border:1px solid black;}
+#marriage-equality{border:1px solid white;margin:auto;width:1120px;}
+#slider-and-details{
+  vertical-align: top;
+  border:1px solid white;
+  display:inline-block;
+  width:300px;
+  height:500px;
+}
+  #slider-year{width:235px;float:right;border:1px solid white;text-align:center;margin-right:10px;}
+  #slider-description{width:235px;float:right;border:1px solid white;text-align:center;margin-right:10px;height:450px;text-align:left;font-style:italic;}
+    #slider-description p{margin-top:0px;}
+  #slider-container{border:1px solid white;text-align:center;width:40px;text-align:center;}
+#slider-vertical{border:1px solid brown;margin-left:5px;display:inline-block;margin-top:40px;height:410px;}
+#add-year{display:none;height:30px;border:1px solid blue;width:70px;font:sans-serif;font-weight:bold;padding:10px;border-radius:6px;}
+#add-year:hover{cursor:pointer;text-align:center;}
+
+#map-container{display:inline-block;border:1px solid white;}
