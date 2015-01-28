@@ -1,7 +1,8 @@
 $(document).ready(function(){
   //show img when clicked
 
-   $('#gallery li img').on('click',function(){
+
+      $('#gallery li img').on('click',function(){
         var src = $(this).attr('src');
         var img = '<img src="' + src + '" class="img-responsive"/>';
         //add prev and next buttons
@@ -22,8 +23,12 @@ $(document).ready(function(){
             $('#myModal .modal-body').html('');
         });
    });
+    $("#marriage-equality svg").attr("id","map-container");
+    $("#landscape .arrow.left").click(function(){previous();});
+    $("#landscape .arrow.right").click(function(){next();});
 
-})
+
+});
 
  $(document).on('click', 'a.controls', function(){
           // Replace the current image
@@ -70,3 +75,44 @@ $('a').click(function(){
     }, 1000);
     return false;
 });
+
+$('#slider-me-add-year').click(function(){
+  console.log("history");
+  var iTemp = $("#slider-me").slider('option','value');
+  var iMax = $("#slider-me").slider('option','max');
+  if (iTemp+1 == iMax){
+    iTemp=$("#slider-me").slider('option','min');  
+    iTemp++; /* move to second year for display purposes */
+  } else {
+    iTemp++;
+  }
+  $("#slider-me").slider('value', iTemp);
+});
+
+next = function(){
+  var iTemp = $("#landscape .slideshow.active").children(".slide").index($("#landscape .slideshow.active .slide.active"));
+  var iLength = $("#landscape .slideshow.active").children(".slide").size();
+  $("#landscape .slideshow.active").children(".slide.active").removeClass('active');
+  iTemp++;
+  if (iTemp<iLength){
+    //console.log(iTemp+" "+iLength);
+    $("#landscape .slideshow.active").children(".slide").eq(iTemp).addClass("active");
+    $("#landscape .slideshow.active").children(".slide").eq(iTemp).children("img").attr("src",$("#landscape .slideshow.active").children(".slide").eq(iTemp).children("img").attr("srcx"));
+  } else{
+    $("#landscape .slideshow.active").children(".slide").eq(0).addClass("active");
+  }
+}
+previous = function(){
+  var iTemp = $("#landscape .slideshow.active").children(".slide").index($("#landscape .slideshow.active .slide.active"));
+  var iLength = $("#landscape .slideshow.active").children(".slide").size();
+  $("#landscape .slideshow.active").children(".slide.active").removeClass('active');
+  iTemp--;
+  if (iTemp>=0){
+    console.log(iTemp+" "+iLength);
+    $("#landscape .slideshow.active").children(".slide").eq(iTemp).addClass("active");
+    // Copy srcx to src. Should be conditional
+    $("#landscape .slideshow.active").children(".slide").eq(iTemp).children("img").attr("src",$("#landscape .slideshow.active").children(".slide").eq(iTemp).children("img").attr("srcx"));
+  } else{
+    $("#landscape .slideshow.active").children(".slide").eq(iLength).addClass("active");
+  }
+}
