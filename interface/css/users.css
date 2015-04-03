@@ -1,0 +1,60 @@
+
+#preferences-content{visibility:none;display:none;}
+#preferences-content.active{visibility:visible;display:inline-block;}
+
+/* override ui-widget-content default */
+.tab-container{height:620px !important;width:500px;margin:auto;background-color:white !important;
+    background:url("images/ui-bg_highlight-soft_100_000000_1x100.png") !important;}
+
+#main .center{text-align:center}
+#main .line-padding{height:12px}  
+#main .line-padding-small{height: 6px}
+#main .line-padding-medium{height:24px}
+#main .line-padding-large{height:36px}
+
+#login-content{visibility:none;display:none;}
+#login-content.active{visibility:visible;display:inline-block;}
+
+#homepage-login-inner{background-color:white;}
+
+#main .submit.active {
+    border: 2px solid black;
+}
+#main .submit {
+    border: 2px solid maroon;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #d9d9d9 inset;
+    display: inline-block;
+    margin: auto;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100px;
+}
+#main .submit:hover{border:2px solid salmon;cursor:pointer;}
+#main .title {
+    font-family: optima,arial,helvetica,verdana;
+}
+
+.container {
+    color: black;
+}
+html {
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: small;
+    text-align: center;
+}
+#main .edit-control {
+    background-color: transparent;
+    border: 1px solid black;
+    outline: 0 none;
+    padding-left: 5px;
+    width: 242px;
+}
+
+#main .submit-container.edit.active:focus{border: 1px solid maroon}
+    #main .submit.active:hover{cursor:pointer;border:2px solid salmon;}
+    #main .submit:focus{border: 2px solid lightsalmon}
+    #main .submit.active:focus{border: 2px solid lightsalmon}
+    #main .edit-control:focus{border:1px solid salmon}
+    #main .edit-control.editing.dirty{background-color:linen} /* control's value has changed as per a onChange event */
+    #main .edit-control.editing{background-color:white}

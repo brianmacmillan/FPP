@@ -1,0 +1,75 @@
+
+
+#slider{
+  position: relative;
+
+  height: 10px;
+  color: white;
+  opacity: 0.5;
+
+}
+
+.center{margin:auto;text-align: center;}
+
+/* end of chord all */
+
+/* marriage equality map stuff */
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+.feature {
+  fill: #ccc;
+  cursor: pointer;
+}
+
+.feature.active {
+  fill: darkgrey;
+}
+
+g path.feature:hover{fill:darkgrey;}
+.mesh {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.left{float:left;}
+
+.title{font:15pt bold;font-family:arial;}
+
+.button{border:1px solid brown;width:70px;height:40px;border-radius:4px;margin:10px auto;padding-top:15px;display:inline-block;}
+.button:hover{background-color:lightgrey;cursor:pointer;}
+.button.active{background-color:#c7b570;}
+
+#marriage-equality-container{display:inline-block; width:100%;border:1px solid white;}
+#marriage-equality{margin:auto;width:1200px;border:1px solid grey;border-radius:10px;padding:5px;}
+#slider-me-and-details{
+  vertical-align: top;
+  border:1px solid white;
+  display:inline-block;
+  width:380px;
+  height:500px;
+  float:left;
+}
+  #slider-me{border:1px solid brown;margin-left:6px;top:5px;visibility:none;display:none;margin-top:40px;height:400px;}
+    #slider-me.active{visibility:visible;display:inline-block;};
+  #slider-me-title{width:235px;float:right;border:1px solid white;text-align:center;margin-right:10px;}
+  #slider-me-description{margin-top:-15px;padding:0px 6px;width:300px;float:right;border:1px solid white;text-align:center;margin-right:10px;height:450px;text-align:left;font-style:italic;overflow:auto;}
+    #slider-me-description p{margin-top:0px;}
+  #slider-me-container{border:1px solid white;text-align:center;width:40px;text-align:center;}
+#slider-me-add-year{margin-top:20px;visibility:none;display:none;font-size:8pt;height:22px;color:brown;width:48px;font:sans-serif;font-weight:bold;padding:5px 0 0 0;border-radius:4px;clear:left;text-align:center;left:-20px;
+ background: url("images/ui-bg_glass_100_f6f6f6_1x400.png") repeat-x scroll 50% 50% #f6f6f6;
+    border: 1px solid #cccccc;
+    font-weight: bold;
+}
+#slider-me-add-year.active{visibility:visible;display:inline-block;float:left;}
+#slider-me-add-year:hover{cursor:pointer;text-align:center;
+  background: url("images/ui-bg_glass_100_fdf5ce_1x400.png") repeat-x scroll 50% 50% #fdf5ce;
+  border: 1px solid #fbcb09;
+}
+
+#map-container{display:inline-block;border:1px solid white;}

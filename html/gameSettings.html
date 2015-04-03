@@ -1,0 +1,64 @@
+<div id="game-edit" class="tab-page">
+	<table>
+		<tr>
+		<td><label>Game Description</label></td>
+		<td class="input-container" colspan="4">
+			<input id="game-description" class="edit-control" type="text" maxLength="30" size="28" tabIndex="151"/>
+		</td>
+		</tr>
+		<tr>
+			<td class="col1"><label>Number of Players</label></td>
+			<td class="col2">
+				<input id="num-players" name="value">
+			</td>
+			<td class="col3"><label>Number of Rounds</label></td>
+			<td class="col4">
+				<input id="num-rounds" name="value">
+			</td>
+		</tr>
+		<tr>
+			<td class="col1"><label>Multiplier</label></td>
+			<td class="col2">
+				<input id="multiplier" name="value">
+			</td>
+			<td class="col3"><label>Endowment</label></td>
+			<td class="col4">
+				<input id="endowment" name="value">
+			</td>
+		</tr>
+		<tr>
+			<td class="col1"><label>Low Donation</label></td>
+			<td class="col2">
+				<input id="lowest-donation" name="value">
+			</td>
+			<td class="col3"><label>High Donation</label></td>
+			<td class="col4"><input id="highest-donation" name="value"></td>
+		</tr>
+		<tr>
+			<td class="col1"><label>Donation Increment</label></td>
+			<td class="col2">
+				<input id="donation-increment" name="value">
+			</td>
+		</tr>
+		<tr>
+		<td><label>Outcomes View</label></td>
+		<td>
+			<select id="outcomes-view">
+				<option value="1">Most Generous</option>
+				<option value="2">Least Generous</option>
+				<option value="3">Least and Most</option>
+				<option value="4">All</option>
+				<option value="5">None</option>
+			</select>
+		</td>
+		<td><label>Punitive Bid</label>
+		<td>
+			<select id="punitive-bid">
+				<option value="1">Punish Equally</option>
+				<option value="2">Punish Recipient by Twice</option>
+				<option value="3">Punish Recipient by Half</option>
+			</select>
+		</td>
+		</tr>
+	</table>
+</div>

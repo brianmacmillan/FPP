@@ -1,0 +1,88 @@
+[
+    {
+        "id": "001U0000016mhDpIAI",
+        "name": "flare.Michael and Susan Dell.Main",
+        "size": 57,
+        "imports": [
+            "flare.Cowboy\/Lone-wolf.Main",
+            "flare.Facilitator.Main",
+            "flare.Single Issue.Main"
+        ]
+    },
+    {
+        "id": "001U000000zDrwAIAS",
+        "name": "flare.Michael Bloomberg.Main",
+        "size": 58,
+        "imports": [
+            "flare.Manager.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhElIAI",
+        "name": "flare.Paul Tudor Jones.Main",
+        "size": 63,
+        "imports": [
+            "flare.Manager.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEiIAI",
+        "name": "flare.Peter Thiel.Main",
+        "size": 66,
+        "imports": [
+            "flare.Networker.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDwIAI",
+        "name": "flare.Tim Gill.Main",
+        "size": 84,
+        "imports": [
+            "flare.Manager.Main",
+            "flare.Networker.Main"
+        ]
+    },
+    {
+        "id": "Cowboy\/Lone-wolf",
+        "name": "flare.Cowboy\/Lone-wolf.Main",
+        "size": 1,
+        "imports": [
+            "flare.Michael and Susan Dell.Main"
+        ]
+    },
+    {
+        "id": "Facilitator",
+        "name": "flare.Facilitator.Main",
+        "size": 1,
+        "imports": [
+            "flare.Michael and Susan Dell.Main"
+        ]
+    },
+    {
+        "id": "Manager",
+        "name": "flare.Manager.Main",
+        "size": 3,
+        "imports": [
+            "flare.Michael Bloomberg.Main",
+            "flare.Paul Tudor Jones.Main",
+            "flare.Tim Gill.Main"
+        ]
+    },
+    {
+        "id": "Networker",
+        "name": "flare.Networker.Main",
+        "size": 2,
+        "imports": [
+            "flare.Peter Thiel.Main",
+            "flare.Tim Gill.Main"
+        ]
+    },
+    {
+        "id": "Single Issue",
+        "name": "flare.Single Issue.Main",
+        "size": 1,
+        "imports": [
+            "flare.Michael and Susan Dell.Main"
+        ]
+    }
+]

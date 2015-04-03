@@ -1,0 +1,67 @@
+[
+    {
+        "id": "001U000000zDrwAIAS",
+        "name": "flare.Michael Bloomberg.Main",
+        "size": 22,
+        "imports": [
+            "flare.Archetype 3.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhElIAI",
+        "name": "flare.Paul Tudor Jones.Main",
+        "size": 25,
+        "imports": [
+            "flare.Archetype 3.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEiIAI",
+        "name": "flare.Peter Thiel.Main",
+        "size": 26,
+        "imports": [
+            "flare.Archetype 4.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDwIAI",
+        "name": "flare.Tim Gill.Main",
+        "size": 36,
+        "imports": [
+            "flare.Archetype 3.Main",
+            "flare.Archetype 4.Main"
+        ]
+    },
+    {
+        "id": "Archetype 1",
+        "name": "flare.Archetype 1.Main",
+        "size": 0,
+        "imports": []
+    },
+    {
+        "id": "Facilitator",
+        "name": "flare.Facilitator.Main",
+        "size": 0,
+        "imports": [
+            "flare.Tim Gill.Main"
+        ]
+    },
+    {
+        "id": "Manager",
+        "name": "flare.Manager.Main",
+        "size": 0,
+        "imports": []
+    },
+    {
+        "id": "Networker",
+        "name": "flare.Networker.Main",
+        "size": 0,
+        "imports": []
+    },
+    {
+        "id": "Single Issue",
+        "name": "flare.Single Issue.Main",
+        "size": 0,
+        "imports": []
+    }
+]

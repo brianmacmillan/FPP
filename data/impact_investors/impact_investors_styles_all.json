@@ -1,0 +1,72 @@
+[
+    {
+        "id": "001U000000zDrwAIAS",
+        "name": "flare.Michael Bloomberg.Main",
+        "size": 22,
+        "imports": [
+            "flare.Archetype 1.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhEOIAY",
+        "name": "flare.Sean Parker.Main",
+        "size": 29,
+        "imports": [
+            "flare.Archetype 3.Main"
+        ]
+    },
+    {
+        "id": "001U0000016mhDwIAI",
+        "name": "flare.Tim Gill.Main",
+        "size": 36,
+        "imports": [
+            "flare.Archetype 2.Main"
+        ]
+    },
+    {
+        "id": "001U000001PsVm9IAF",
+        "name": "flare.William\tDraper.Main",
+        "size": 40,
+        "imports": [
+            "flare.Archetype 4.Main"
+        ]
+    },
+    {
+        "id": "Archetype 1",
+        "name": "flare.Archetype 1.Main",
+        "size": 1,
+        "imports": [
+            "flare.Michael Bloomberg.Main"
+        ]
+    },
+    {
+        "id": "Archetype 2",
+        "name": "flare.Archetype 2.Main",
+        "size": 1,
+        "imports": [
+            "flare.Tim Gill.Main"
+        ]
+    },
+    {
+        "id": "Archetype 3",
+        "name": "flare.Archetype 3.Main",
+        "size": 1,
+        "imports": [
+            "flare.Sean Parker.Main"
+        ]
+    },
+    {
+        "id": "Archetype 4",
+        "name": "flare.Archetype 4.Main",
+        "size": 1,
+        "imports": [
+            "flare.William\tDraper.Main"
+        ]
+    },
+    {
+        "id": "Archetype 5",
+        "name": "flare.Archetype 5.Main",
+        "size": 0,
+        "imports": []
+    }
+]

@@ -1,0 +1,142 @@
+#chord-svg-amounts{padding-top:0px;padding-left:0px;margin:auto;}
+.center{text-align:center;margin:auto;}
+a{text-decoration: none;}
+.invisible{visibility: hidden;}
+.client-summary .about{border:1px solid transparent !important;}
+.client-summary .headshot{text-align:center;}
+.client-summary .headshot img{width:256px;}
+.client-summary .overview{text-align:left;margin:20px auto;}
+.client-summary{display:none;}
+.client-summary.active{display:block;}
+
+.client-summary > div{font-weight:bold;}
+
+
+.client-summary.active .description > div{font-weight:normal;}
+.client-summary.active .description div:first-child{font-weight:bold !important;}
+
+.container.about p{margin:auto;text-align:left;width:700px;font-size: 12pt;padding-bottom: 20px;}
+.container.aboutp::first-line{text-indent: 10px !important;}
+.container.about  p.first-paragraph:first-letter{font-weight: bold;font-size: 16pt;}
+.client-summary .about.description { }
+.client-summary .about,.client-summary .summary {
+
+  }
+ g.group text{font-size: 10.5pt !important;}
+
+  font-size: 10px;
+  color:white;
+}
+.center{margin:auto;text-align: center;}
+
+#investors-and-issues h2{position:relative;top:0px;width:98%;margin:auto;}
+#chord-legend-container{width:100%;margin-top:20px;border:10px;border-radius:10px;}
+#chord-legend-container span {padding-right:20px;}
+
+.border{height: 2px;}
+
+.subtitle{
+ font-size: 16px;
+ font-style:italic;
+ margin-top: 4px;
+}
+
+.logo{
+	float: left;
+	display: inline;
+	font-size: 31px;
+	margin-left: 20px;
+  margin-top:10px;
+  font-family:sans-serif;
+  /*
+	font-family: cursive;
+  */
+	font-weight: bold;
+	color: rgba(173, 204, 253, 0.96);
+
+}
+g.group text{font-size: 10.5pt !important;}
+
+  font-size: 10px;
+  color:white;
+}
+div.center{margin:auto;text-align: center;}
+
+#investors-and-issues h2{position:relative;top:0px;width:98%;margin:auto;}
+
+#chord-legend-container{width:100%;margin-top:20px;border:10px;border-radius:10px;}
+#chord-legend-container span {padding-right:20px;}
+
+/* chord  */
+    #chord-containerx{overflow:hidden;width:1800px;height:1000px;
+      border:0px solid black;margin:auto;margin-top:0px;}
+    #chord{width:1160px;border:0px solid white;display:inline-block;float:right;overflow:visible;z-index:9998;}
+    #chord-issues{
+      position:absolute;top:0;left:30;bottom:0;padding-top:50px;padding-left:0px;display:inline-block;border:1px solid transparent;}
+    #chord-details{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: -20px; /* Hide scrollbar */
+      overflow: auto;
+      padding:50px;
+      display:inline-block;
+      margin-top:0px;
+      width:30%;
+      text-align:left;
+     /* 
+      border:1px solid black;
+      display:inline-block;
+      overflow-y:auto;
+      overflow-x:hidden;
+      float:right;
+      */
+    }
+
+    .chord-svg{overflow:visible;padding:80px 60px;visibility:hidden;display:none;}
+    .chord-svg.active{visibility: visible;display:inline-block;}
+
+    #chord-legend{
+      position:absolute;
+      right: 20px;
+      margin-top:60px;
+      height:500px;
+      width:100px;
+      border:1px solid transparent;
+      z-index:9999;
+    }
+    #tooltip {
+        color: white;
+        opacity: .9;
+        background: #333;
+        padding: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 10;
+        visibility: hidden;
+        white-space: nowrap;
+        pointer-events: none;
+    }
+    #chord{
+      float:left;
+    }
+    #circle{overflow:visible !important;border:1px solid lightgrey !important;position:absolute;right:1000px;}
+    #circle circle {
+      fill: none;
+      pointer-events: all;
+    }
+    path.group {
+      fill-opacity: .8;
+    }
+    path.chord {
+      fill-opacity: .8;
+      stroke: #000;
+      stroke-width: .25px;
+    }
+    #circle:hover path.fade {
+      display: none;
+    }
+    g text:hover{font-weight:bold;color:blue !important;cursor:pointer;}
+
+

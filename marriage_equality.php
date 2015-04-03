@@ -11,32 +11,28 @@
 	<link rel="stylesheet" href="./interface/css/me.css">
     <link rel="stylesheet" href="./interface/css/jquery-ui-1.11.2-slider.css">
 
-<!--
-	<script src="./scripts/js/jquery.js"></script>
--->
     <script src="./scripts/js/jquery-1.10.2.js"></script>
     <script src="./scripts/js/jquery-ui-1.11.2-slider/jquery-ui.js"></script>
     <script>
       // rename to avoid conflict with jquery mobile slider
       $.fn.uislider = $.fn.slider;
     </script>
-
 	<script src="./scripts/js/jquery.mobile-1.4.5.min.js"></script>
     <script src="./scripts/js/d3.v3.min.js"></script>
     <script src="./scripts/js/mapper.js"></script>
     <script src="./scripts/js/underscore.js"></script>
-	<script src="./scripts/js/investor_chord.js"></script>
+    <script src="./scripts/js/investor_chord.js"></script>
 
 	<!-- D3 map -->
     <script src="./scripts/js/slider.js"></script>
     <script src="./scripts/js/topojson.v1.min.js"></script>
     <script src="./scripts/js/zoom-map.js"></script>
     <script src="./scripts/js/fpp.js"></script>
+    <!-- end chord -->
 
 	<script>
 		$( document ).on( "pagecreate", function() {
-  			//$("#inside-a").panel("open");		
-  			pageCreate();
+			pageCreate();
   		});
 		$( document ).on( "pageshow", function() {
 			pageShow();
@@ -49,134 +45,14 @@
 		<a href="#outside" data-icon="bars" data-iconpos="notext">Menu</a>
 		<div data-role="navbar">
 			<ul>
-				<li><a class="ui-btn-active" href="#a">By Reform Issue</a></li>
-				<li><a href="#b">By Style</a></li>
+				<li><a class="ui-btn-active" href="index.php">By Reform Issue</a></li>
+				<li><a href="investment_by_style.php">By Style</a></li>
 				<li><a href="investment_by_amount.php">By Amount</a></li>
 				<li><a class="" href="#d">By All Issues</a></li>
 			</ul>
 		</div>
 	</div><!-- /header -->
 
-	<div data-role="page" id="a">
-
-		<div role="main" class="ui-content">
-
-			<div class="center" id="chord-issues"></div>
-			
-			<!--
-			$("#inside-a").panel("open");
-			<a href="#inside-b" class="ui-btn ui-shadow ui-corner-all ui-btn-inline">Show Details</a>
-			-->
-			
-			<div id="chord-details" class="ui-panel-page-container-b" data-theme="b">
-		            <div id="client-summary-container" data-theme="b">
-		            <!-- ********* Add investor data here ******** -->
-		                <?php include("./data/client_summary.html"); ?>
-		            </div>
-		            <!--  ****************  -->
-		    </div><!-- /content -->
-		</div>
-
-		<div data-role="panel" id="inside-a" data-position="right" data-display="overlay" data-theme="b">
-			<ul data-role="listview">
-				<li data-icon="back"><a href="#" data-rel="close">Close</a></li>
-				<li>Investor Details</li>
-				<li>Arnold</li>
-				<li>Blank</li>
-				<li>Eychaner</li>
-				<li>Munger</li>
-				<li>Hughes</li>
-				<li>Lucas</li>
-				<li>Schultz</li>
-				<li>Skoll</li>
-				<li>Walton</li>
-			</ul>
-		</div>
-
-		<div data-role="footer" data-position="fixed">
-			<div data-role="navbar">
-				<ul>
-					<li><a class="ui-btn-active" href="index.php" class="ui-btn-active ui-state-persist">Impact Investors</a></li>
-					<li><a href="#f">Marriage Equality</a></li>
-					<li><a href="common_core.php">Common Core</a></li>
-				</ul>
-			</div>
-		</div><!-- /header -->
-
-	</div><!-- /page -->
-	<div data-role="page" id="b">
-
-		<div role="main" class="ui-content">
-
-		<div class="center" id="chord-styles">Chord</div>
-		<!--
-		$("#inside-a").panel("open");
-		<a href="#inside-a" class="ui-btn ui-shadow ui-corner-all ui-btn-inline">Show Details</a>
-		-->
-		</div><!-- /content -->
-
-		<div data-role="panel" id="inside-a" data-position="right" data-display="overlay" data-theme="b">
-			<ul data-role="listview">
-				<li data-icon="back"><a href="#" data-rel="close">Close</a></li>
-				<li>Investor Details</li>
-				<li>Arnold</li>
-			</ul>
-	        <div id="chord-details">
-	            <div id="client-summary-container"></div>
-	            <!-- ********* Add investor data here ******** -->
-	                <?php include("./data/client_summary.html"); ?>
-	            <!--  ****************  -->
-	        </div>
-		</div>
-
-		<div data-role="footer" data-position="fixed">
-			<div data-role="navbar">
-				<ul>
-					<li><a class="ui-btn-active" href="index.php" class="ui-btn-active ui-state-persist">Impact Investors</a></li>
-					<li><a href="marriage_equality.html">Marriage Equality</a></li>
-					<li><a href="common_core.html">Common Core</a></li>
-				</ul>
-			</div>
-		</div><!-- /header -->
-
-	</div><!-- /page -->
-
-	<div data-role="page" id="d">
-
-		<div role="main" class="ui-content">
-
-		<div class="center" id="chord-issues-all"></div>
-		<!--
-		$("#inside-a").panel("open");
-		<a href="#inside-a" class="ui-btn ui-shadow ui-corner-all ui-btn-inline">Show Details</a>
-		-->
-		</div><!-- /content -->
-
-		<div data-role="panel" id="inside-a" data-position="right" data-display="overlay" data-theme="b">
-			<ul data-role="listview">
-				<li data-icon="back"><a href="#" data-rel="close">Close</a></li>
-				<li>Investor Details</li>
-				<li>Arnold</li>
-			</ul>
-	        <div id="chord-details">
-	            <div id="client-summary-container"></div>
-	            <!-- ********* Add investor data here ******** -->
-	                <?php include("./data/client_summary.html"); ?>
-	            <!--  ****************  -->
-	        </div>
-		</div>
-
-		<div data-role="footer" data-position="fixed">
-			<div data-role="navbar">
-				<ul>
-					<li><a class="ui-btn-active" href="index.php" class="ui-btn-active ui-state-persist">Impact Investors</a></li>
-					<li><a href="marriage_equality.php">Marriage Equality</a></li>
-					<li><a href="common_core.php">Common Core</a></li>
-				</ul>
-			</div>
-		</div><!-- /header -->
-
-	</div><!-- /page -->
 	<div data-role="page" id="f">
 		<div role="main" class="ui-content">
 		  <div class="container">
@@ -269,7 +145,12 @@
 				<li>Investor Details</li>
 				<li>Arnold</li>
 			</ul>
-
+	        <div id="chord-details">
+	            <div id="client-summary-container"></div>
+	            <!-- ********* Add investor data here ******** -->
+	                <?php include("./data/client_summary.html"); ?>
+	            <!--  ****************  -->
+	        </div>
 		</div>
 
 		<div data-role="footer" data-position="fixed">
@@ -299,10 +180,8 @@
 </body>
 <script>
 	$(document).ready(function(){
-		//initEventHandlers();
-  		//populateInvestorChord("./data/impact_investors/impact_investors_ten_issues.json","chord-svg-issues","#chord-issues");
+		$("#marriage-equality svg").attr("id","map-container");
 
-		//populateInvestorChord('./data/impact_investors/impact_investors_styles_all.json',"chord-svg-styles");
   		//$("#inside-a").panel("open");
 		//$.mobile.changePage(function(){console.log("changepage");});  		
 	    //$(":mobile-pagecontainer").pagecontainer('change', response.controller + '/' + response.method,
